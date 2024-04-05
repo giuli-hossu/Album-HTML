@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Symbol";
+}
+
+footer {
+    color: #5A6268;
+
+    height: 55px;
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    text-align: left;
+}
+
+h3 {
+    color: #6C757D;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: #343A40;
+    display: flex;
+    padding: 10px 120px;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    padding-left: 5%;
+}
+
+nav button {
+    background: none;
+    color: #5A6268;
+
+    border: 1px solid #5A6268;
+    margin-left: auto;
+    
+    height: 50px;
+    width: 50px;
+}
+
+span p {
+    color: #6C757D;
+    font-size: small;
+    top: 35%;
+    position: absolute;
+    right: 25px;
+}
+
+#album-lists {
+    background-color: #F6F7F8;
+}
+
+.about-album {
+    margin: 10% 25%;
+    text-align: center;
+}
+
+.blue-button {
+    background-color: #007BFF;
+    color: #fff;
+
+    border: 1px solid #007BFF;
+    border-radius: 3px;
+
+    height: 35px;
+    width: 140px;
+}
+
+.blue-button:hover {
+    background-color: #0069D9;
+    border-color: #0069D9;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+}
+
+.card span {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-text {
+    color: #343A40;
+    margin: 15px;
+
+}
+
+.card-button {
+    background-color: #fff;
+    color: #6C757D;
+
+    border: 1px solid #6C757D;
+    border-radius: 3px;
+
+    height: 30px;
+    width: 50px;
+}
+
+.card-button:hover {
+    background-color: #6C757D;
+    color: #fff;
+}
+
+.col {
+    flex: 1;
+    padding: 15px;
+}
+
+.fa-custom{
+    background: none;
+    color: #fff;
+    margin-right: 10px ;
+}
+
+.gray-button {
+    background-color: #6C757D;
+    color: #fff;
+
+    border: 1px solid #6C757D;
+    border-radius: 3px;
+
+    height: 35px;
+    width: 140px;
+}
+
+.gray-button:hover {
+    background-color: #5A6268;
+    border-color: #5A6268;
+}
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
