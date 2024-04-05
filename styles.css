@@ -55,26 +55,29 @@ nav button {
 
     border: 1px solid #5A6268;
     margin-left: auto;
-    
+
     height: 50px;
     width: 50px;
 }
 
-span p {
-    color: #6C757D;
-    font-size: small;
-    top: 35%;
-    position: absolute;
-    right: 25px;
+#album-example article {
+    margin: 10% 25%;
+    text-align: center;
 }
 
 #album-lists {
     background-color: #F6F7F8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 40px;
+    padding: 60px;
 }
 
-.about-album {
-    margin: 10% 25%;
-    text-align: center;
+#album-lists article {
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
 }
 
 .blue-button {
@@ -93,26 +96,22 @@ span p {
     border-color: #0069D9;
 }
 
-.card {
-    background-color: #fff;
-    border: 1px solid #DEDEDE;
-    border-radius: 3px;
-}
-
-.card span {
+.card-body section {
     position: relative;
     display: inline-flex;
     width: 100%;
     padding: 10px;
 }
 
-.card-text {
-    color: #343A40;
-    margin: 15px;
-
+.card-body section p {
+    color: #6C757D;
+    font-size: small;
+    top: 35%;
+    position: absolute;
+    right: 25px;
 }
 
-.card-button {
+.card-body section button {
     background-color: #fff;
     color: #6C757D;
 
@@ -123,20 +122,20 @@ span p {
     width: 50px;
 }
 
-.card-button:hover {
+.card-body section button:hover {
     background-color: #6C757D;
     color: #fff;
 }
 
-.col {
-    flex: 1;
-    padding: 15px;
+.card-text {
+    color: #343A40;
+    margin: 10px;
 }
 
-.fa-custom{
+.fa-custom {
     background: none;
     color: #fff;
-    margin-right: 10px ;
+    margin-right: 10px;
 }
 
 .gray-button {
@@ -153,16 +152,4 @@ span p {
 .gray-button:hover {
     background-color: #5A6268;
     border-color: #5A6268;
-}
-
-
-
-
-
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
 }
